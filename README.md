@@ -24,7 +24,10 @@ Executing a query can prove to be as simple as
     var UserModel = MysqlORM.model('user')
     // `UserModel` will now act as the model representation for the `user` table in your database
     UserModel.findAll().exec().then(function(usersData){
-        // userData is the array of results
+        // usersData is the array of results
+        // The attributes of the records can be accessed as `usersData[0].attributes`
+        // So, in order to get the `name` attribute of the user, you will have to execute the following code
+        console.log(usersData[0].attributes.name)
     })
 
     // `findAll` also has an alias function `all`
