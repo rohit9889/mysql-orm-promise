@@ -1,6 +1,6 @@
 {
   "name": "mysql-orm-promise",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A promise based ORM for MySQL",
   "dependencies": {
     "node-mysql-promise": "0.0.5",
@@ -15,7 +15,7 @@
     "url" : "https://github.com/rohit9889/mysql-orm-promise/issues",
     "email" : "rohit0981989@gmail.com"
   },
-  "homepage": "https://github.com/rohit9889/isbndbjs",
+  "homepage": "http://rohit-sharma.in/mysql-orm-promise/",
   "license" : "MIT",
   "tags": [
     "mysql",
