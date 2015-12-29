@@ -19,7 +19,7 @@ This is an ORM meant to read/modify data from your MySQL database into the node.
 ### Features
 
 #### A Robust Query Interface
-Executing a query can prove to be as simple as
+Executing a query can be as simple as
 
     var UserModel = MysqlORM.model('user')
     // `UserModel` will now act as the model representation for the `user` table in your database
@@ -61,3 +61,12 @@ Executing a query can prove to be as simple as
     UserModel.orderBy('id', true).exec().then(function(usersData){
         // ... handle the results here ...
     })
+
+### Roadmap
+
+* Implement write operations
+* Implement more flexible and optimized ways to query the database
+
+### Issues and Suggestions
+
+Please report all the issues in the Github Issues Page, suggestions are also welcome. You can also mail me at rohit0981989[at]gmail[dot]com for the same.
